@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "note this script would update the system and then reboot, please run the next install script to continue installation"
 if [[ "$EUID" = 0 ]]; then
 	echo "running already as root"
