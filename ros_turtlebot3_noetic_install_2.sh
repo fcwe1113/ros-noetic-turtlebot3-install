@@ -50,8 +50,8 @@ else
 	echo "source ~/catkin_ws_rss/devel/setup.bash" >> ~/.bashrc
 fi
 
-source ~/catkin_ws_rss/devel/setup.bash
-export TURTLEBOT3_MODEL=burger
-
-echo "if everything works properly then you should be able to run the sample environment with the following command:"
+echo "Use the following command to start up an empty world simulation of the turtlebot:"
 echo "roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch"
+echo "NOTE: this will run properly in all new shells, if you want to run it in this current shell run the following 2 commands beforehand:"
+echo "source ~/catkin_ws_rss/devel/setup.bash"
+echo "export TURTLEBOT3_MODEL=burger"
