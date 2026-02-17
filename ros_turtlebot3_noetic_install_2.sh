@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [[ "$EUID" = 0 ]]; then
 	echo "running already as root"
 else
