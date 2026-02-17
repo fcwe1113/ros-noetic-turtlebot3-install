@@ -49,5 +49,8 @@ else
 	echo "source ~/catkin_ws_rss/devel/setup.bash" >> ~/.bashrc
 fi
 
+source ~/catkin_ws_rss/devel/setup.bash
+export TURTLEBOT3_MODEL=burger
+
 echo "if everything works properly then you should be able to run the sample environment with the following command:"
 echo "roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch"
