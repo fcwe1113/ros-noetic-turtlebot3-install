@@ -1,7 +1,7 @@
 # ros-noetic-turtlebot3-install
 Installation scripts for automated installations of turtlebot3 simulations on ros noetic
 
-#Environment setup
+# Environment setup
 OS: Ubuntu 20.04 (variations of different desktops (hopefully) doesn't matter, I am running it on a Lubuntu install)
 This script is intended for a clean install as a VM guest OS, run this at your own risk on actual hardware
 
