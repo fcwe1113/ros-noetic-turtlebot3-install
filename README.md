@@ -2,7 +2,7 @@
 Installation scripts for automated installations of turtlebot3 simulations on ros noetic
 
 # Environment setup
-OS: Fresh install Ubuntu 20.04 (variations of different desktops (hopefully) doesn't matter, I am running it on a Lubuntu install) on a VM or on a distrobox image if you are already on linux running a distro supported by distrobox
+OS: Fresh install Ubuntu 20.04 (variations of different desktops (hopefully) doesn't matter, I am running it on a Lubuntu install) on a VM or on a distrobox image if you are already on distrobox supported linux distro
 
 run this at your own risk on actual hardware and/or other Ubuntu versions
 
@@ -14,7 +14,7 @@ run this at your own risk on actual hardware and/or other Ubuntu versions
 5. profit
 
 # Installation steps (Distrobox image)
-1. make sure you have distrobox installed on your computer, if not consult the documentation page here
+1. make sure you have distrobox installed on your computer, if not consult the documentation page here: https://distrobox.it
 2. create a container of Ubuntu 20.04, I recommend using a custom home directory. (DO NOT ALLOW SPACES IN YOUR PATH, IT WILL NOT WORK PROPERLY OTHERWISE)
 3. run `git clone https://github.com/fcwe1113/ros-noetic-turtlebot3-install.git`
 4. run `cd ros-noetic-turtlebot3-install`
