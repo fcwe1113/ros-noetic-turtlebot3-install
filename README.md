@@ -15,7 +15,7 @@ run this at your own risk on actual hardware and/or other Ubuntu versions
 
 # Installation steps (Distrobox image)
 1. make sure you have distrobox installed on your computer, if not consult the documentation page here: https://distrobox.it
-2. create a container of Ubuntu 20.04, I recommend using a custom home directory. (DO NOT ALLOW SPACES IN YOUR PATH, IT WILL NOT WORK PROPERLY OTHERWISE)
+2. create a container of Ubuntu 20.04, I recommend using a the same home directory.
 3. run `git clone https://github.com/fcwe1113/ros-noetic-turtlebot3-install.git`
 4. run `cd ros-noetic-turtlebot3-install`
 5. run `bash ros_turtlebot3_noetic_install_2.sh`
